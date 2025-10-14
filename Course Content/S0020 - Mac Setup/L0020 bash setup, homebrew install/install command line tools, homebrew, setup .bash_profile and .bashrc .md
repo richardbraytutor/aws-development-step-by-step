@@ -1,4 +1,4 @@
-# Setup .bashrc And .bash_profile
+# Setup .bash_profile
 
 ## .bash_profile
 
