@@ -81,11 +81,11 @@ Refresh your repo on GitHub.com and check your change is there.
 
 # 6 If, at some time in the future you want to work with a different GitHub account :
 
-In GitHub desktop, sign in to the new GitHub account in "settings"
+- In GitHub desktop, sign in to the new GitHub account in "settings"
 
-Clone a repo from the new account
+- Clone a repo from the new account
 
-Open Visual Studio code
+- Open a terminal and enter this command:
 
 ```bash
 git credential-manager github list
@@ -99,11 +99,13 @@ lets assume it returns
 myaccount
 ```
 
-Then, clear these credentials with this command
+- Clear these credentials with this command
 
 ```bash
 git credential-manager github logout myaccount
 
 ```
 
-Then, the next time you try to push/sync with VS Code's source code manager, it will re-prompt you to authenticate the new GitHub account you want to push to.
+- Edit the cloned repo above with VS code and try to push the changes
+
+it will re-prompt you to authenticate the new GitHub account you want to push to.
