@@ -92,6 +92,26 @@ brew install --cask github
 brew install --cask visual-studio-code
 ```
 
+# VS Code : set default terminal
+
+Run Visual Studio Code
+
+Select View → Command Palette
+
+Terminal: Select Default Profile
+
+choose "bash"
+
+# VS code : disable GPU acceleration in terminal
+
+In the VS Code menu bar select "Code -> Settings"
+
+Search for "features terminal gpu"
+
+Under Terminal › Integrated: Gpu Acceleration
+
+set to Off
+
 # Workflow : first Github Account
 
 ## GitHub Desktop Signin
