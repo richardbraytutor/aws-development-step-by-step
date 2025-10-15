@@ -1,3 +1,33 @@
+# Terminal setup
+
+- run mac terminal application
+
+- in the menu bar select Terminal → settings
+
+- Set "shells open with" to Command (complete path) and set this to
+
+```
+/bin/bash
+```
+
+- you may wish to change the display settings, I am going to use
+  - profile = homebrew
+  - profiles-homebrew-font-size:18
+
+# Change the default terminal to bash
+
+Open a new terminal window and issue the following command
+
+```bash
+chsh -s /bin/bash
+```
+
+( To revert to the zsh just issue the command, but we will be assuming the bash shell for this course setup. )
+
+```bash
+chsh -s /bin/zsh
+```
+
 # Setup .bash_profile
 
 We need to distinguish .bash_profile from .bashrc
@@ -18,7 +48,8 @@ We need to distinguish .bash_profile from .bashrc
 
 ## Update .bash_profile
 
-Edit the ~/.bash_profile file:
+Edit the ~/.bash_profile file
+
 Open **Terminal**, then run:
 
 ```bash
