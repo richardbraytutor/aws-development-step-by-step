@@ -1,3 +1,19 @@
+# Setup
+
+These are the setup instructions if you are working on a Mac.
+
+The windows instructions are in another section.
+
+I am starting with a Mac which has been fully reset.
+
+The only changes I have made are:
+
+- wallpaper
+- mouse and keyboard preferences
+- video recording software
+- google drive to backup my recordings to the cloud
+- finder sidebar
+
 # Terminal setup
 
 - run mac terminal application
