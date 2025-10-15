@@ -1,16 +1,20 @@
 # Setup .bash_profile
 
+We need to distinguish .bash_profile from .bashrc
+
 ## .bash_profile
 
-- is where you put things like your PATH
-
-- It runs every time you open a new Terminal window
+- Runs every time you open a new Terminal window
+- Where you put things like
+  - PATH
+  - terminal prompt settings
 
 ## .bashrc
 
-- is where you typically put aliases and functions
-
-- it runs when you start a bash shell inside an existing terminal
+- Runs when you start a bash shell inside an existing terminal
+- Where you typically put
+  - aliases
+  - functions
 
 ## Update .bash_profile
 
@@ -21,7 +25,7 @@ Open **Terminal**, then run:
 nano ~/.bash_profile
 ```
 
-and add the following
+and add
 
 ```bash
 # In .bash_profile
@@ -33,12 +37,11 @@ fi
 
 ```
 
-By adding this code to .bash_profile, you're telling it to also load .bashrc automatically whenever a new terminal is opened.
+This does the following
 
-- this way, you can organize your settings
-- keep PATH and environment variables in .bash_profile, and
-- keep aliases and shortcuts in .bashrc
-- and everything will load together when you open Terminal.
+- sets the terminal prompt to $ (we are going to use several split terminals and need the prompt small)
+- removes unwanted messages when opening terminals
+- loads .bashrc automatically whenever a new terminal is opened, thereby setting required aliases (we will be using some shortly)
 
 # Install Homebrew
 
