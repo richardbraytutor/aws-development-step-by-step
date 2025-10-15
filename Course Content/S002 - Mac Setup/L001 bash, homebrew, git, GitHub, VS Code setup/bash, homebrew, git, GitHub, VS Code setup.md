@@ -8,11 +8,8 @@ I am starting with a Mac which has been fully reset.
 
 The only changes I have made are:
 
-- wallpaper
-- mouse and keyboard preferences
-- video recording software
-- google drive to backup my recordings to the cloud
-- finder sidebar
+- cosmetic : wallpaper, dock, finder
+- video recording software + backup
 
 # Terminal setup
 
