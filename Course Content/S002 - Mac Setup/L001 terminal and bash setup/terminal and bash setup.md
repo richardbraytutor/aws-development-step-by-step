@@ -1,15 +1,31 @@
 # Setup
 
-These are the setup instructions if you are working on a Mac.
+My aim is for this course to provide complete instructions on how to develop a substantial AWS project from scratch, with nothing missing.
 
-The windows instructions are in another section.
-
-I am starting with a Mac which has been fully reset.
+For that reason we are starting with a factory reset machine.
 
 The only changes I have made are:
 
 - cosmetic : wallpaper, dock, finder
 - video recording software + backup
+
+# Mac / Windows compatibility
+
+There are separate sections for Mac and Windows setup.
+
+You are currently in the Mac setup section.
+
+These are the only sections in the course which differ : once this setup is complete, the remainder of the course videos should work on both platforms.
+
+If there are any differences I will point them out as we go along and show you what to do on each platform.
+
+In order to maintain this compatibility I am going to assume that we are using the same terminal shell on both platforms.
+
+We will therefore be using the bash shell thoughout the course.
+
+A Mac, by default, is configured to use zsh, so the first thing we are going to do is change this to the bash shell.
+
+Don't worry : I will point out how it can be changed back !
 
 # Terminal setup
 
