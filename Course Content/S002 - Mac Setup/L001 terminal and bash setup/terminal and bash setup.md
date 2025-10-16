@@ -75,9 +75,7 @@ We need to distinguish .bash_profile from .bashrc
   - aliases
   - functions
 
-## Update .bash_profile
-
-Edit the ~/.bash_profile file
+# Edit .bash_profile
 
 Open **Terminal**, then run:
 
@@ -88,9 +86,11 @@ nano ~/.bash_profile
 and add
 
 ```bash
-# In .bash_profile
 export PS1="$ "
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+echo "temporary message : running .bash_profile"
+
 if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 fi
@@ -101,4 +101,28 @@ This does the following
 
 - sets the terminal prompt to $ (we are going to use several split terminals and need the prompt small)
 - removes unwanted messages when opening terminals
+- prints a temporary message
 - loads .bashrc automatically whenever a new terminal is opened, thereby setting required aliases (we will be using some shortly)
+
+# Edit .bashrc
+
+Open **Terminal**, then run:
+
+```bash
+nano ~/.bash_profile
+```
+
+and add
+
+```bash
+echo "temporary message : running .bashrc"
+
+```
+
+# Test
+
+open a terminal window - you should see the two messages
+
+# Remove the two temporary messages
+
+- edit both files and remove the temporary message lines
