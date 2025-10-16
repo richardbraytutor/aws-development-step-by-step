@@ -185,6 +185,11 @@ git credential-manager github logout richardbraytutor
 # Multiple accounts
 
 ```
+This command is essential for multi-account support
+
+git config --global credential.https://github.com.useHttpPath true
+
+
 GitHub Desktop : don't use it !
 
 VS Code use the terminal to clone repos like this :
