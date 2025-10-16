@@ -171,6 +171,35 @@ brew install --cask github
 brew install --cask visual-studio-code
 ```
 
+# Single account
+
+```
+GitHub Desktop : just login using settings
+VS Code will prompt for a login when you push
+
+To clear a login and switch VS Code to another account:
+git credential-manager github list
+git credential-manager github logout richardbraytutor
+```
+
+# Multiple accounts
+
+```
+GitHub Desktop : don't use it !
+
+VS Code use the terminal to clone repos like this :
+
+FInd the URL on the github website, eg
+
+https://github.com/rjbtutor/000-Course-Planning.git
+
+and adjust, adding the accountname? to github.com like this :
+
+$ git clone https://rjbtutor@github.com/rjbtutor/000-Course-Planning.git
+
+
+```
+
 # VS Code : set default terminal
 
 Run Visual Studio Code
