@@ -1,23 +1,19 @@
 # Setup
 
-My aim is for this course to provide complete instructions on how to develop a substantial AWS project from scratch, with nothing missing.
+There are separate sections for Mac and Windows setup.
 
-For that reason we are starting with a factory reset machine.
+These are the only sections in the course which differ : once this setup is complete, the remainder of the course videos should work on both platforms.
 
-The only changes I have made are:
+This the Mac setup section.
+
+In this section we start with a factory reset machine and we'll install all the tools necessary  prior to starting development.
+
+The only changes made to this machine are
 
 - cosmetic : wallpaper, dock, finder
 - video recording software + backup
 
 # Mac / Windows compatibility
-
-There are separate sections for Mac and Windows setup.
-
-You are currently in the Mac setup section.
-
-These are the only sections in the course which differ : once this setup is complete, the remainder of the course videos should work on both platforms.
-
-If there are any differences I will point them out as we go along and show you what to do on each platform.
 
 In order to maintain this compatibility I am going to assume that we are using the same terminal shell on both platforms.
 
@@ -41,7 +37,11 @@ Don't worry : I will point out how it can be changed back !
 
 - you may wish to change the display settings, I am going to use
   - profile = homebrew
-  - profiles-homebrew-font-size:18
+  - profiles-homebrew-font-size:14
+
+
+
+
 
 # Change the default terminal to bash
 
@@ -57,9 +57,6 @@ chsh -s /bin/bash
 chsh -s /bin/zsh
 ```
 
-# Setup .bash_profile
-
-We need to distinguish .bash_profile from .bashrc
 
 ## .bash_profile
 
@@ -68,14 +65,6 @@ We need to distinguish .bash_profile from .bashrc
   - PATH
   - terminal prompt settings
 
-## .bashrc
-
-- Runs when you start a bash shell inside an existing terminal
-- Where you typically put
-  - aliases
-  - functions
-
-# Edit .bash_profile
 
 Open **Terminal**, then run:
 
@@ -89,40 +78,15 @@ and add
 export PS1="$ "
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-echo "temporary message : running .bash_profile"
-
-if [ -f ~/.bashrc ]; then
-    source ~/.bashrc
-fi
-
 ```
 
 This does the following
 
 - sets the terminal prompt to $ (we are going to use several split terminals and need the prompt small)
 - removes unwanted messages when opening terminals
-- prints a temporary message
-- loads .bashrc automatically whenever a new terminal is opened, thereby setting required aliases (we will be using some shortly)
 
-# Edit .bashrc
+Open a new terminal window to see the results.
 
-Open **Terminal**, then run:
+## .bashrc
 
-```bash
-nano ~/.bash_profile
-```
-
-and add
-
-```bash
-echo "temporary message : running .bashrc"
-
-```
-
-# Test
-
-open a terminal window - you should see the two messages
-
-# Remove the two temporary messages
-
-- edit both files and remove the temporary message lines
+- We won't be using it
