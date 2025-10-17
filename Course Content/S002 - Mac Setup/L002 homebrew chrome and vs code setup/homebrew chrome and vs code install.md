@@ -40,3 +40,24 @@ Search for "features terminal gpu"
 Under Terminal › Integrated: Gpu Acceleration
 
 set to Off
+
+# Visual Studio Code Extensions
+
+albert.tabout
+bradlc.vscode-tailwindcss
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+inferrinizzard.prettier-sql-vscode
+mhutchie.git-graph
+ms-vscode-remote.remote-wsl
+ms-vscode.vscode-typescript-next
+peakchen90.open-html-in-browser
+redhat.vscode-yaml
+ritwickdey.liveserver
+vincaslt.highlight-matching-tag
+yoavbls.pretty-ts-errors
+
+cat extensions-list.txt | xargs -L 1 code --install-extension
