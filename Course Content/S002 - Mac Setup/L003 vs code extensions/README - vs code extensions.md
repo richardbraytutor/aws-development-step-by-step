@@ -1,10 +1,16 @@
 # Install Extensions as required
 
+Copy the following into a new file ~/install-vscode-extensions.sh
+
+```bash
+nano ~/install-vscode-extensions.sh
+```
+
 ```bash
 #!/bin/bash
 
 # Write the extensions into the file
-cat > extensions-list.txt <<EOL
+cat > vscode-extensions-list.txt <<EOL
 albert.tabout
 bradlc.vscode-tailwindcss
 christian-kohler.path-intellisense
@@ -23,6 +29,28 @@ vincaslt.highlight-matching-tag
 yoavbls.pretty-ts-errors
 EOL
 
-# Install all extensions listed
-cat extensions-list.txt | xargs -L 1 code --install-extension
+# Get already installed extensions
+installed=$(code --list-extensions)
+
+# Install only missing ones
+while read -r extension; do
+  if echo "$installed" | grep -q "^${extension}$"; then
+    echo "$extension already installed"
+  else
+    echo "Installing $extension..."
+    code --install-extension "$extension"
+  fi
+done < vscode-extensions-list.txt
+```
+
+Now set permissions to allow it to execute
+
+```bash
+chmod 755 install-vscode-extensions.sh
+```
+
+Now execute the script to create extensions
+
+```bash
+./install-vscode-extensions.sh
 ```
