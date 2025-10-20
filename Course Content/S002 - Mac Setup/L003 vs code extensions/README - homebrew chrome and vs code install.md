@@ -20,3 +20,9 @@ brew install --cask google-chrome
 ```bash
 brew install --cask visual-studio-code
 ```
+
+# Install Extensions as required
+
+```
+cat extensions-list.txt | xargs -L 1 code --install-extension
+```
