@@ -1,10 +1,22 @@
-# Workflow : one account at a time using GitHub Desktop
+# Create a new repo and save it to GitHub
 
-## first Github Account
+## Create new folder and file
 
-### GitHub Desktop Signin
+- Open application terminal
 
-In GitHub Desktop settings, sign in with your GitHub account (this makes cloning super simple).
+```bash
+cd ~
+mkdir repo-one
+cd repo-one
+git init -b main -q
+touch README.md
+```
+
+### Create Repo with GitHub Desktop
+
+- Open GitHub desktop
+- File->AddLocalRepository (to Add an Existing Repository from your Local Drive)
+- choose the "repo-one" folder and hit "Add Repository"
 
 ### Clone a repo in GitHub Desktop:
 

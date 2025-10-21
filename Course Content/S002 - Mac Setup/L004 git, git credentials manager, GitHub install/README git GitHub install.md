@@ -49,11 +49,6 @@ brew install --cask git-credential-manager
 git-credential-manager configure
 ```
 
-Check it’s configured:
-
-```bash
-git config --global credential.helper
-```
 
 It should say:
 
