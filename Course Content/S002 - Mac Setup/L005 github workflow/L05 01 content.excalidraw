@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "xviEai7AhpWHdyn5KAlZV",
+      "type": "text",
+      "x": 638,
+      "y": 164,
+      "width": 670.9999999999999,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2V",
+      "roundness": null,
+      "seed": 705664507,
+      "version": 660,
+      "versionNonce": 1928789237,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1761052375945,
+      "link": null,
+      "locked": false,
+      "text": "1.  Login / Create GitHub account(s)\n\n2.  VS Code initiated : \n        Create new repo in VS Code \n        publish to GitHub\n\n3.  GitHub initiated : \n        Create new repo at GitHub.com\n        Clone the desktop using GitHub desktop\n        Edit, commit and push using VS Code\n\n4.  Configuring VS Code to switch to a different GitHub account \n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1.  Login / Create GitHub account(s)\n\n2.  VS Code initiated : \n        Create new repo in VS Code \n        publish to GitHub\n\n3.  GitHub initiated : \n        Create new repo at GitHub.com\n        Clone the desktop using GitHub desktop\n        Edit, commit and push using VS Code\n\n4.  Configuring VS Code to switch to a different GitHub account \n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}

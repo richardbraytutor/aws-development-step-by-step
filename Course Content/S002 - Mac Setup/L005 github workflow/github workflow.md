@@ -1,3 +1,15 @@
+# GitHub website
+
+- run chrome
+
+- create and signin to a GitHub desktop account
+
+# New Repo : VS Code Initiated
+
+- use finder to create folder ~/<github-account-name>/repo-one
+- put VS Code in the dock and drag the folder on top of it
+- got to Source Control in Activity Bar
+
 # Create a new repo and save it to GitHub
 
 ## Create new folder and file
