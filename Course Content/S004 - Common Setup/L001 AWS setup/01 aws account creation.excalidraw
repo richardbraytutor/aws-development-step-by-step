@@ -1,0 +1,87 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "bzt4U_gK67sQFpfijkH06",
+      "type": "rectangle",
+      "x": 69.6976638117003,
+      "y": 23.868140833946285,
+      "width": 886,
+      "height": 335,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b02",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1116425731,
+      "version": 309,
+      "versionNonce": 1332926243,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "wCKq-L7u0-MzvjBtoLoau",
+          "type": "text"
+        }
+      ],
+      "updated": 1761141226818,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "wCKq-L7u0-MzvjBtoLoau",
+      "type": "text",
+      "x": 116.65792992498154,
+      "y": 28.868140833946285,
+      "width": 792.0794677734375,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b03",
+      "roundness": null,
+      "seed": 850363949,
+      "version": 1106,
+      "versionNonce": 636615363,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1761141226818,
+      "link": null,
+      "locked": false,
+      "text": "\nAWS Account Creation\n\n- highly recommended for the duration of this course \n\n- new account free tier only lasts 6 months \n\n- get $100 of credit to spend within those 6 months\n\n-  this is enough to cover all the resources we will use during development + test\n\n- this way the course will be free of all AWS charges\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "bzt4U_gK67sQFpfijkH06",
+      "originalText": "\nAWS Account Creation\n\n- highly recommended for the duration of this course \n\n- new account free tier only lasts 6 months \n\n- get $100 of credit to spend within those 6 months\n\n-  this is enough to cover all the resources we will use during development + test\n\n- this way the course will be free of all AWS charges\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
