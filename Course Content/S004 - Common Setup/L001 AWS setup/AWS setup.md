@@ -1,17 +1,10 @@
 ## create a gmail account
 
-uptickart@gmail.com
-
-## setup chrome user profile
-
-uptickart@gmail.com
+uptickart01@gmail.com
 
 # AWS account setup
 
 ## create an AWS account
 
-uptickart
+uptickart01
 
-## create an IAM account
-
-dev
