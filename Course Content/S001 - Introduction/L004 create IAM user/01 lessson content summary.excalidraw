@@ -1,0 +1,87 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "Yk01oek4r3NVk-_43jvi7",
+      "type": "rectangle",
+      "x": 616.75,
+      "y": 162.91796875,
+      "width": 650,
+      "height": 435,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bK6",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1696187122,
+      "version": 56,
+      "versionNonce": 593708146,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "M3pbkYXkct3byvhkbxiW7",
+          "type": "text"
+        }
+      ],
+      "updated": 1761226007418,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "M3pbkYXkct3byvhkbxiW7",
+      "type": "text",
+      "x": 621.9902038574219,
+      "y": 167.91796875,
+      "width": 639.5195922851562,
+      "height": 425,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bK7",
+      "roundness": null,
+      "seed": 814852910,
+      "version": 563,
+      "versionNonce": 934500594,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1761226001958,
+      "link": null,
+      "locked": false,
+      "text": "Lesson Plan\n\n- sign into AWS with root email address\n\n- open the management console\n\n- go to the IAM (Identity and Access Management) service\n\n- create a new IAM user for regular AWS development/deployment\n\n- assign permissions to the user \n\n- login as the IAM user\n\n- look at Cost and Billing explorer\n\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "Yk01oek4r3NVk-_43jvi7",
+      "originalText": "Lesson Plan\n\n- sign into AWS with root email address\n\n- open the management console\n\n- go to the IAM (Identity and Access Management) service\n\n- create a new IAM user for regular AWS development/deployment\n\n- assign permissions to the user \n\n- login as the IAM user\n\n- look at Cost and Billing explorer\n\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
