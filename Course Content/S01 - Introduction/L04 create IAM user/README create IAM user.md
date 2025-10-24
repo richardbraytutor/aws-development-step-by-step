@@ -42,6 +42,8 @@ if you are not at "Console Home" then
 
 - in the search bar at the top choose IAM (**not** IAM identity center)
 
+- browser bookmark this page !
+
 if you are not on the IAM dashboard page then 
 
 - select Dashboard in the left panel
