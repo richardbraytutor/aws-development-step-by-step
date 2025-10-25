@@ -1,4 +1,5 @@
 # login as new IAM user
+- run chrome - we are going to save passkeys later on in the chrome password manager
 
 - go to the AWS login screen (you can find this using Google - search for "AWS sign in")
 - Account alias - as chosen previous lesson - eg "awsstepbystep-xxx"
@@ -26,13 +27,15 @@ At the time of writing I use both Google and Microsoft authenticators - I find M
 - press the signout button
 - login again - you will be prompted for an MFA code from your authenticator
 
-# setup MFA with a passkey
-
-This assumes you are on your personal machine 
-
-It also assumes that you are using a browser such as Chrome with a profile setup for you personally
+# select a chrome profile
+- click "your chrome" at top right of browser
+- select "sign in to chrome"
+- choose either your personal google account if you have one or the gmail account you used to setup the aws account with
+- sign in
 
 This way, the passkey will be stored by chrome in the password manager for your profile
+
+# setup MFA with a passkey
 
 - open the IAM service
 - select (in the Access Management section) Users
