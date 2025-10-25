@@ -28,12 +28,17 @@ At the time of writing I use both Google and Microsoft authenticators - I find M
 - login again - you will be prompted for an MFA code from your authenticator
 
 # select a chrome profile
-- click "your chrome" at top right of browser
-- select "sign in to chrome"
-- choose either your personal google account if you have one or the gmail account you used to setup the aws account with
-- sign in
+
+If you haven't already, its a good idea to set up a chrome profile.
 
 This way, the passkey will be stored by chrome in the password manager for your profile
+
+- click "your chrome" at top right of browser
+- select "sign in to chrome"
+- choose either 
+    - your personal google account if you have one or 
+    - the gmail account you used to setup the aws account with
+- sign in
 
 # setup MFA with a passkey
 

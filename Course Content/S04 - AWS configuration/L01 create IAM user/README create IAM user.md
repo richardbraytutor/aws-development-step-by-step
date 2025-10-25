@@ -1,3 +1,7 @@
+# run chrome
+
+we now have chrome installed so lets use that
+
 # sign in as root user
 
 assuming your root user email address is 
